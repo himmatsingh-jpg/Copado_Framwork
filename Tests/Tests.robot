@@ -5,6 +5,7 @@ Documentation           New test suite
 Library                 QForce
 Suite Setup             Open Browser    about:blank    chrome
 Suite Teardown          Close All Browsers
+Resource        ../Resource/Resource.robot
 *** Variables ***
 
 
