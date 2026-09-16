@@ -19,7 +19,7 @@ Suite Teardown          Close All Browsers
 
 
 Quote 
-    JwtLogin
+    Login
     LaunchApp                       App Launcher    
     ClickText                       Salesforce CPQ 
     ClickText                        Quotes
