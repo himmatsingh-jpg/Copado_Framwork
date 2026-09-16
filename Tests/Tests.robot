@@ -33,4 +33,6 @@ Quote
 
 Edit Quote
     ClickText                        Edit Lines
-    ClickElement                     (//body)[1]
+    VerifyText                       Choose Price Book    timeout=15s
+    ClickText                        Save                 anchor=Choose Price Book
+    
