@@ -34,4 +34,6 @@ Quote
 Edit Quote
     ClickText                        Edit Lines
     ClickText                        Save                 anchor=Choose Price Book    recognition_mode=vision
+    ClickText                        Add Products
+    
 
