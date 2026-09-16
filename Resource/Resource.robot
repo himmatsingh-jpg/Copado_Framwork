@@ -1,10 +1,9 @@
 *** Settings ***
-
-Documentation           New test suite
-# You can change imported library to "QWeb" if testing generic web application, not Salesforce.
-Library                 QForce
-Suite Setup             Open Browser    about:blank    chrome
-Suite Teardown          Close All Browsers
+Documentation             Example resource file with custom keywords. NOTE: Some keywords below may need
+...                       minor changes to work in different instances.
+Library                   QForce
+Library                   String
+Library                   DateTime
 *** Variables ***
 
 
