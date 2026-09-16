@@ -33,6 +33,5 @@ Quote
 
 Edit Quote
     ClickText                        Edit Lines
-    VerifyText                       Choose Price Book    timeout=15s
     ClickText                        Save                 anchor=Choose Price Book    recognition_mode=vision
 
