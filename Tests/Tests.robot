@@ -33,6 +33,4 @@ Quote
 
 Edit Quote
     ClickText                        Edit Lines
-    UseModal                        On
-    ClickText                        Save
-    UseModal                        Off
+    ClickElement                     (//body)[1]
