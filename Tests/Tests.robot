@@ -34,6 +34,13 @@ Quote
 Edit Quote
     ClickText                        Edit Lines
     ClickText                        Save                 anchor=Choose Price Book    recognition_mode=vision
-    
+    ClickText    Add Products
+    ClickItem    checkbox    anchor=10KWHBATTERY    tag=paper-checkbox
+    ClickItem    checkbox    anchor=2FAUSBKEY    tag=paper-checkbox
+    ClickItem    checkbox    anchor=4KVIDEOCAM    tag=paper-checkbox
+    ClickText    Select
+    ClickText    Save
+    ClickText    Save    partial_match=False
+    SetConfig    ShadowDOM    False
 
 
