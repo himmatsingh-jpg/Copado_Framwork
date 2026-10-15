@@ -35,5 +35,22 @@ Edit Quote
     ClickText                        Edit Lines
     ClickText                        Save                 anchor=Choose Price Book    recognition_mode=vision
     ClickText                        Add Products
+
+Hello
+    [Documentation]    Test Case created using the QEditor
+
     
 
+
+    GoTo    https://www.copado.com/
+    ClickText    Accept
+    ClickText    Book a Consultation    anchor=1-877-COPADO0
+    TypeText    First Name*    Himmat
+    TypeText    Last Name*    Singh
+    TypeText    Business Email*    himmat@gmail
+    TypeText    Company*    hh
+    TypeText    Job Title*    hh
+    DropDown    372431_663692pi_372431_663692    India
+    ClickText    Submit
+    VerifyText    correct
+    VerifyText    Please correct the errors below:
